@@ -1,0 +1,20 @@
+.header{
+  padding-top: 30px;
+  position: relative;
+  margin: 0 auto;
+  height: 1000px;
+  background-image: $main-image-color, url("../images/header-bg-min.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 1;
+  z-index: 3;
+
+}
+@media
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .header{
+    background-image: $main-image-color, url("../images/header-bg@2x-min.png");
+  }
+}

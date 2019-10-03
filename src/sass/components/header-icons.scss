@@ -1,0 +1,23 @@
+.header-icons{
+  display: flex;
+  justify-content: space-between;
+  width: 80px;
+  margin-left: 52px;
+  &__link{
+    display: block;
+    width: 18px;
+    height:15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    &>svg{
+      display: block;
+      width: 100%;
+      height: 100%;
+      fill:white;
+      transition: 0.3s ease-in-out;
+      &:hover{
+        fill: #fce38a;
+      }
+    }
+  }
+}

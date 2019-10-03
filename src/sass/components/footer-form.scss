@@ -1,0 +1,31 @@
+.footer-form{
+  display: flex;
+  align-items: center;
+  &__email{
+    width: 230px;
+    height: 40px;
+    border: 1px solid #e7e7e7;
+    background-color: #ffffff;
+    padding-left: 13px;
+  }
+}
+.footer-button{
+  @extend %button;
+  background-color: #95e1d3;
+  color: #ffffff;
+  font-size: $secondary-text-font-size;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.8s cubic-bezier(.39,.37,1,1);
+  &:hover{
+    background-color: greenyellow;
+  }
+}
+::placeholder{
+  color: #cccccc;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-size: $secondary-text-font-size;
+  font-weight: 300;
+  line-height: 24px;
+}

@@ -1,0 +1,18 @@
+
+.navigation-list{
+  @extend %list;
+  width: 480px;
+  &__link {
+    color: #ffffff;
+    font-size: $primary-text-font;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+    &:hover{
+      padding-bottom: 12px;
+      color: #fce38a;
+      border-bottom: 3px solid #fce38a;
+    }
+  }
+}

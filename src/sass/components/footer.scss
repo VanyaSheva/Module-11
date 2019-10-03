@@ -1,0 +1,17 @@
+.footer{
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #e5e5e5;
+  align-items: center;
+  height: 61px;
+  &__text {
+    font-size: $secondary-text-font-size;
+    font-weight: 700;
+  }
+  &__text-color{
+    color: #f38181;
+  }
+  &__link{
+    text-decoration: none;
+  }
+}

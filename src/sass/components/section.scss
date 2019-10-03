@@ -1,0 +1,25 @@
+.section{
+&__heading{
+  margin-bottom: 22px;
+  color: #333333;
+  font-family: 'Kaushan Script', sans-serif;
+  font-size: 24px;
+  font-weight: 400;;
+}
+  &__description{
+    color: #333333;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 42px;
+    &::after{
+      display: block;
+      content: '';
+      width: 60px;
+      height: 3px;
+      background-color: #f38181;
+      margin: 42px auto 66px;
+    }
+  }
+}
+
